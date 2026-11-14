@@ -1,23 +1,22 @@
 <p align="center">
-  <img src="./arcence-logo.svg" alt="Arcence Logo" width="680" />
+  <img src="./arcence-logo.svg" alt="Arcence" width="110" />
 </p>
 
+<h1 align="center">A R C E N C E</h1>
+
 <p align="center">
+  <strong>Build AI. Own Intelligence.</strong><br/>
   <em>We build the structure, and the capability follows from it.</em><br/>
-  <strong>Buffalo, New York · <a href="https://arcence.tech">arcence.tech</a> · In Development</strong>
+  <sub>Buffalo, New York · <a href="https://arcence.tech">arcence.tech</a> · In Development</sub>
 </p>
 
 ---
 
-### About Arcence
+### What We Build
 
 Most organizations today are forced to rent closed, black-box AI models they do not own and cannot inspect.
 
 **Arcence** is building the operating system that lets any team **build, understand, and own its own AI**—combining guided model engineering with **glass-box science** that looks inside how neural networks think and fixes fragile shortcuts before deployment.
-
----
-
-### Our Four Systems
 
 | System | Role | What It Does |
 | :--- | :--- | :--- |
@@ -28,19 +27,13 @@ Most organizations today are forced to rent closed, black-box AI models they do 
 
 ---
 
-### Why "Arcence"? (`ἀρχή`)
+### Etymology · `ἀρχή`
 
 - ***arche*** (*Greek*): The first principle—the origin everything else is built from.
 - ***-ence*** (*Latin*): A state of being, as *scientia* became *science*.
 - ***arch*** (*Structure*): A stone arch in which every piece is held in place by the others, locked by a central keystone.
 
 > **Arcence**: *the state of holding to first principles.*
-
----
-
-### Current Milestone · *Arcence Model Preflight* (`In Development`)
-
-We are building **Arcence Model Preflight**: our first complete end-to-end workflow connecting a real model objective to baseline testing, right-sized training, glass-box circuit verification, and a portable deployment package.
 
 ---
 
