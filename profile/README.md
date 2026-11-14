@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./arcence-logo.svg" alt="Arcence" width="110" />
+  <img src="./arcence-mark.svg" alt="Arcence" width="110" />
 </p>
 
 <h1 align="center">A R C E N C E</h1>
