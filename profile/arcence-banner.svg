@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" role="img" aria-label="Arcence — Build AI. Own Intelligence.">
+  <defs>
+    <style>
+      .bg { fill: #DAD8D3; }
+      .ink { fill: #1B1B1A; }
+      .muted { fill: #4E4C46; }
+      .accent { fill: #B84A27; }
+      .stone-fill { fill: #1B1B1A; stroke: #DAD8D3; stroke-width: 1.5; }
+      .keystone-fill { fill: #DAD8D3; stroke: #1B1B1A; stroke-width: 2; }
+      .hairline { stroke: #1B1B1A; stroke-width: 1; fill: none; }
+      .dashed { stroke: #7C7970; stroke-width: 1; stroke-dasharray: 4 5; fill: none; }
+      .accent-dashed { stroke: #B84A27; stroke-width: 1.4; stroke-dasharray: 4 4; fill: none; }
+      .serif-title { font-family: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif; font-weight: 300; }
+      .serif-italic { font-family: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif; font-style: italic; font-weight: 400; }
+      .sans-caps { font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; }
+      .mono-label { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+    </style>
+  </defs>
+
+  <!-- Warm Stone Background -->
+  <rect width="1200" height="420" class="bg" />
+
+  <!-- Outer Architectural Frame -->
+  <rect x="24" y="24" width="1152" height="372" class="hairline" />
+  <line x1="24" y1="74" x2="1176" y2="74" class="hairline" />
+  <line x1="24" y1="348" x2="1176" y2="348" class="hairline" />
+  <line x1="690" y1="74" x2="690" y2="348" class="hairline" />
+
+  <!-- Top Header Strip -->
+  <text x="48" y="54" class="sans-caps ink" font-size="11">BUFFALO, NEW YORK · IN DEVELOPMENT</text>
+  <text x="600" y="55" text-anchor="middle" class="serif-title ink" font-size="22" letter-spacing="0.34em">ARCENCE</text>
+  <text x="1152" y="54" text-anchor="end" class="sans-caps accent" font-size="11">ARCENCE.TECH</text>
+
+  <!-- Left Column: Typography & Core Thesis -->
+  <text x="52" y="114" class="mono-label accent" font-size="10.5">
+    RESEARCH-FIRST AI INFRASTRUCTURE · MECHANISTIC INTERPRETABILITY · FOUNDRY OS
+  </text>
+
+  <text x="52" y="172" class="serif-title ink" font-size="54">
+    Build AI. Own Intelligence.
+  </text>
+  <text x="52" y="220" class="serif-italic ink" font-size="40">
+    We build the structure, and the capability follows.
+  </text>
+
+  <text x="52" y="266" class="sans-caps muted" font-size="11" letter-spacing="0.06em">
+    ORIGINAL NEURAL ARCHITECTURES · CAUSAL CIRCUIT VERIFICATION · PORTABLE MODEL OWNERSHIP
+  </text>
+
+  <!-- Etymology Pill inside Left Column -->
+  <line x1="52" y1="288" x2="646" y2="288" class="hairline" stroke-opacity="0.35" />
+  <text x="52" y="320" class="serif-title ink" font-size="28">ἀρχή</text>
+  <text x="132" y="317" class="serif-italic muted" font-size="18">
+    arche (first principle) + -ence (state of being) + arch (mutual compression)
+  </text>
+
+  <!-- Right Column: Architectural 9-Stone Arch Plate (Fig. 1) -->
+  <g transform="translate(690, 74)">
+    <text x="44" y="34" class="mono-label ink" font-size="10">I · RESEARCH OS</text>
+    <text x="44" y="50" class="serif-italic muted" font-size="13">Spec · Proof · Compile · Circuit</text>
+
+    <text x="442" y="34" text-anchor="end" class="mono-label ink" font-size="10">II · FOUNDRY OS</text>
+    <text x="442" y="50" text-anchor="end" class="serif-italic muted" font-size="13">Planner · Vault · Eval · Release</text>
+
+    <!-- Construction Arcs -->
+    <path d="M 83 224 A 160 160 0 0 1 403 224" class="dashed" />
+    <line x1="243" y1="20" x2="243" y2="236" class="dashed" stroke-opacity="0.5" />
+
+    <!-- 9 Voussoir Stones Around Center (243, 224), R_in=92, R_out=144 -->
+    <!-- L1: SPEC (180° to 160°) -->
+    <polygon points="99,224 151,224 156.5,192.5 107.7,174.8" class="stone-fill" />
+    <!-- L2: PROOF (160° to 140°) -->
+    <polygon points="107.7,174.8 156.5,192.5 172.5,164.9 132.7,131.4" class="stone-fill" />
+    <!-- L3: COMPILE (140° to 120°) -->
+    <polygon points="132.7,131.4 172.5,164.9 197.0,144.3 171.0,99.3" class="stone-fill" />
+    <!-- L4: CIRCUIT (120° to 100°) -->
+    <polygon points="171.0,99.3 197.0,144.3 227.0,133.4 218.0,82.2" class="stone-fill" />
+
+    <!-- KEYSTONE: ASSURANCE (100° to 80°, slightly proud R_out=152) -->
+    <polygon points="216.6,74.3 227.0,133.4 259.0,133.4 269.4,74.3" class="keystone-fill" />
+
+    <!-- R4: PLANNER (80° to 60°) -->
+    <polygon points="268.0,82.2 259.0,133.4 289.0,144.3 315.0,99.3" class="stone-fill" />
+    <!-- R3: VAULT (60° to 40°) -->
+    <polygon points="315.0,99.3 289.0,144.3 313.5,164.9 353.3,131.4" class="stone-fill" />
+    <!-- R2: EVAL (40° to 20°) -->
+    <polygon points="353.3,131.4 313.5,164.9 329.5,192.5 378.3,174.8" class="stone-fill" />
+    <!-- R1: RELEASE (20° to 0°) -->
+    <polygon points="378.3,174.8 329.5,192.5 335,224 387,224" class="stone-fill" />
+
+    <!-- Line of Thrust Curve -->
+    <path d="M 125 224 A 118 118 0 0 1 361 224" class="accent-dashed" />
+    <circle cx="243" cy="104" r="3.5" class="accent" />
+
+    <!-- Arch Impost Baseline -->
+    <line x1="68" y1="224" x2="418" y2="224" stroke="#1B1B1A" stroke-width="2" />
+
+    <text x="243" y="250" text-anchor="middle" class="mono-label ink" font-size="9.5">
+      FIG. 1 · THE ASSURANCE KEYSTONE LOCKS RESEARCH OS &amp; FOUNDRY OS IN COMPRESSION
+    </text>
+  </g>
+
+  <!-- Bottom Footer Strip -->
+  <text x="48" y="378" class="mono-label ink" font-size="10.5">
+    RESEARCH OS: ATLAS → SPEC → PROOF → COMPILE → STUDIO → TRIALS → CIRCUIT → GUARD → EVIDENCE
+  </text>
+  <text x="1152" y="378" text-anchor="end" class="mono-label accent" font-size="10.5">
+    CLOUD · VPC · ON-PREM · AIR-GAPPED
+  </text>
+</svg>
